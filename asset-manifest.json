@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/React-Website/static/css/main.8097e5c8.css",
+    "main.js": "/React-Website/static/js/main.b3bed39f.js",
+    "static/js/787.fb771931.chunk.js": "/React-Website/static/js/787.fb771931.chunk.js",
+    "static/media/spaceScrabble.png": "/React-Website/static/media/spaceScrabble.d9658eed04a5af56e3b1.png",
+    "static/media/wallpaper3.jpg": "/React-Website/static/media/wallpaper3.cd10a60f227c5803ea61.jpg",
+    "static/media/javascript.png": "/React-Website/static/media/javascript.ba0a928588f389c91981.png",
+    "static/media/python.png": "/React-Website/static/media/python.d8b377f05522bf35de36.png",
+    "static/media/OceanVideoFinal.png": "/React-Website/static/media/OceanVideoFinal.ad9cdf1a71dc95893c99.png",
+    "static/media/header-img.svg": "/React-Website/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/java.png": "/React-Website/static/media/java.860b21889bd8a30b86aa.png",
+    "static/media/resume.pdf": "/React-Website/static/media/resume.6a8458d6359f078aef10.pdf",
+    "static/media/CentraNo2-Bold.ttf": "/React-Website/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/React-Website/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/React-Website/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/html.png": "/React-Website/static/media/html.f3aa7827cd5160f3fc1c.png",
+    "static/media/blackjack.png": "/React-Website/static/media/blackjack.4000618737bbb7e4d18f.png",
+    "static/media/franklin.jpg": "/React-Website/static/media/franklin.577de1a149ac94b08e68.jpg",
+    "static/media/css.png": "/React-Website/static/media/css.1334cb45a7d5ad096543.png",
+    "static/media/c.png": "/React-Website/static/media/c.83dfa097dfa94f707a41.png",
+    "static/media/logo2.png": "/React-Website/static/media/logo2.be8a25b35e371a0c0647.png",
+    "static/media/CalculatorGUI.jpg": "/React-Website/static/media/CalculatorGUI.e209fd4d90f31f3767d3.jpg",
+    "static/media/ToDolist1.png": "/React-Website/static/media/ToDolist1.fe733661d43cb293b415.png",
+    "static/media/revicons.eot": "/React-Website/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/React-Website/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/TemperatureCalculator.png": "/React-Website/static/media/TemperatureCalculator.86e183106a13a902a1c3.png",
+    "static/media/revicons.woff": "/React-Website/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/React-Website/index.html",
+    "static/media/nav-icon1.svg": "/React-Website/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.8097e5c8.css.map": "/React-Website/static/css/main.8097e5c8.css.map",
+    "main.b3bed39f.js.map": "/React-Website/static/js/main.b3bed39f.js.map",
+    "787.fb771931.chunk.js.map": "/React-Website/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8097e5c8.css",
+    "static/js/main.b3bed39f.js"
+  ]
+}
