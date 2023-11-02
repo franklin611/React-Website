@@ -54,8 +54,8 @@ export const Banner = () => {
                                     <span className="tagline">Welcome to my Portfolio</span>
                                     <h1>{`Hey I'm Franklin! `} <span className="wrap">{text}</span></h1>
 
-                                    <p>University of Waterloo Computer Science Undergrad 2027</p>
-                                    <p>Currently Seeking a Spring 2023 Co-op/Internship</p>
+                                    <p>University of Waterloo Computer Science Undergrad 2026</p>
+                                    <p>Currently Seeking a Spring 2024 Co-op/Internship</p>
                                     {/* <button onClick = {event =>  window.location.href='projects'}>Let's Connect<ArrowRightCircle size = {30}></ArrowRightCircle></button> */}
                                 </div>
                             }
