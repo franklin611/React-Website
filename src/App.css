@@ -74,6 +74,7 @@ a:hover {
   height: 55vmin; /* Maintain proportions as screen size changes*/
   width: 55vmin; 
   box-shadow: 0 20px 40px rgba(255, 255, 255, 0.1);
+  object-fit: cover; /* Maintains image aspect ratio and prevent distortions  */
   
 }
 
