@@ -1,0 +1,116 @@
+/* ContactFormComponent.css */
+
+.ContactForm {
+    background-color: #000;
+    padding: 40px;
+}
+
+.Contact-Me-Section {
+    text-align :left;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.my-icon {
+    display: inline-block;
+    margin-left: 25px;
+}
+.my-icon a {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    background: rgba(217, 217, 217, 0.1);
+    display: inline-flex;
+    border-radius: 50%;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.items {
+    padding-bottom: 12px;
+}
+
+.description-column {
+    display: flex;
+    justify-content: left; /* Horizontally center */
+    align-items: center;    /* Vertically center */
+  }
+
+.centered-text {
+    /* Additional styling if needed */
+    font-size: 24px;
+    color: #333;
+  }
+.my-icon a::before {
+    content: "";
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: scale(0);
+	transition: 0.3s ease-in-out;
+}
+.my-icon a:hover::before {
+    transform: scale(1);
+}
+.my-icon a img {
+	width: 40%;
+	z-index: 1;
+	transition: 0.3s ease-in-out;
+}
+.my-icon a:hover img {
+	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000; /* Background color for the form */
+    border-radius: 8px;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #fff; /* White border for the input fields */
+    background-color: #000; /* Background color for the input fields */
+    color: #fff; /* Text color */
+    font-size: 16px;
+  }
+  
+  .form-input::placeholder,
+  .form-textarea::placeholder {
+    color: #bbb; /* Placeholder text color */
+  }
+  
+  .form-textarea {
+    height: 100px; /* Adjust the height for the textarea */
+    resize: none; /* Disable resizing */
+  }
+  
+  .form-button {
+    width:100%;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #d9534f; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-button:hover {
+    background-color: #c9302c; /* Button hover background color */
+  }
+  
