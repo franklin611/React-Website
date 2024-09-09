@@ -54,24 +54,4 @@ const ContactFormComponent = () => {
   );
 };
 
-// Styles (optional)
-const formStyle = {
-  // display: 'flex',
-  // flexDirection: 'column',
-  // width: '300px',
-  // margin: '0 auto',
-};
-
-const inputGroupStyle = {
-  // marginBottom: '15px',
-};
-
-const buttonStyle = {
-  // padding: '10px 20px',
-  // backgroundColor: '#007BFF',
-  // color: '#fff',
-  // border: 'none',
-  // cursor: 'pointer',
-};
-
 export default ContactFormComponent;
