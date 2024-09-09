@@ -1,29 +1,44 @@
 import { Col, Container, Row } from "react-bootstrap";
-import franklin from "../assets/img/franklin.jpg";
+import franklin from "../assets/img/franklinnew.jpg";
+import './css/Contact.css';  // Import the CSS file
+
+
 
 export const Contact = () => {
+
+  // List of current activities
+  const items = [
+    { text: (<>WAT.ai Technical Project Manager - <a href="https://www.instagram.com/delaynomoreuw2024/" target="_blank" rel="noopener noreferrer">Delay No More</a></> )},
+    { text: (<>CUSEC UWaterloo Head Delegate - <a href="" target="_blank" rel="noopener noreferrer">Learn More!</a></>)},
+    { text: (<>UWaterloo BobaTime President - Check out our <a href="https://www.instagram.com/uwbobatime/" target="_blank" rel="noopener noreferrer">Instagram</a></>)},
+    { text: "Early Undergraduate Research Assistant" }
+  ];
+
   return (
     <section className="contact" id="connect">
       <Container>
-        <Row className="align-items-center">
-          <Col sm={6} md={4}>
-            <h2>About Me</h2>
-          </Col>
-          <Col sm={6} md={4}>
-            <h3></h3>
-          </Col>
-        </Row>
         <Row className="more-about-me">
-          <Col sm={6} md={8}>
-            <h3>Hi there! I'm Franklin Ramirez, a first-year computer science student at the University of Waterloo. I got into coding in grade 10, where I started
-              creating simple apps, animations, and games using Processing and Java. Outside of school, I taught myself Python and am now working on a Sudoku Solver
-              that uses an algorithm I created. At university, I'm learning more about programming fundamentals and the proper techniques for designing and creating
-              exceptional programs. I enjoy working on side-projects using React, JavaScript, and HTML/CSS, and experimenting with new technologies on my GitHub.</h3>
-          </Col>
           <Col sm={6} md={4}>
             <div>
               <img className="myImage" src={franklin}></img>
             </div>
+          </Col>
+          <Col sm={6} md={8}>
+            <h1>Hi there! 👋 </h1>
+            <br></br>
+            <p>My name is Franklin and I am an undergraduate at the University of Waterloo pursuing a degree in Computer Science, with a specialization in Artificial Intelligence and Minor in Psychology.</p>
+            <p>When I am not in the library studying or tirelessly working on fun ideas (my favourite being a GUI Calculator), you can find me trying new BBT flavours and hosting BBT events through our schools's Bubble Tea Club.
+              Although I am not the greatest at basketball, I always show up with heart and cheer when I play at intramurals with my friends (Beginner Bracket Winter '24 Winner woot!).</p>
+            <p>Some of the initiatives I am currently part of include:</p>
+            {/* Iterate over all the above items creating a bullet point list */}
+            <ul>
+              {items.map((item, index) => (
+                <li key={index}>
+                  {item.text}
+                </li>
+              ))}
+            </ul>
+
           </Col>
         </Row>
       </Container>
