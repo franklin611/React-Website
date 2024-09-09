@@ -66,9 +66,20 @@ a:hover {
   text-decoration: none;
 }
 
+.icon-image {
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  height:500px;
+  width: 500px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
 img {
   width: 100%;
   height: auto;
+
 }
 
 button {
