@@ -1,7 +1,7 @@
 /* ContactFormComponent.css */
 
 .ContactForm {
-    background-color: #000;
+    background: rgb(37, 37, 37);
     padding: 40px;
     background-size: cover;
     height: 100%;
@@ -88,7 +88,7 @@
     /* Adjust the width as needed */
     margin: 0 auto;
     padding: 20px;
-    background-color: #000;
+    /* background-color: #000; */
     /* Background color for the form */
     border-radius: 8px;
 }
