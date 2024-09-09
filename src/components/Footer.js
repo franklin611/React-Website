@@ -20,7 +20,7 @@ export const Footer = () => {
                             <a href='https://github.com/franklin611'><img src = {navIcon2}/></a>
                             <a href="mailto:fgramire@uwaterloo.ca"><img src = {navIcon3}/></a>
                         </div>
-                        <p>Copyright © 2023 FR</p>
+                        <p>Copyright © 2024 FR</p>
                     </Col>
                 </Row>
             </Container>
