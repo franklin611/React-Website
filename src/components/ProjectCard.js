@@ -10,7 +10,6 @@ export const ProjectCard = ({ title, description, link, imgUrl }) => {
                     <span>{description}</span>
                     <br></br>
                 </div>
-
             </div>
         </Col>
     )

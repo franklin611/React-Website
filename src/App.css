@@ -260,10 +260,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 300px 0 250px 0;
-  background-image: url('./assets/img/wallpaper3.jpg');
-  background-position: top center; 
+  background-image: url('./assets/img/beautiful-mountains-landscape.jpg');
+  background-position: top center; /* Align the top of the image with the top of the container */
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat; 
 }
 .banner .tagline {
   font-weight: 700;
@@ -527,7 +527,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 .contact { 
   background: rgb(37, 37, 37);
-  padding:200px 0 100px 0;
+  padding:150px;
   background-size: cover;
   height: 100%;
   background-position: center;
@@ -552,13 +552,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Footer Styling */
 
-.footer{
-  padding: 50px 0 50px 0;
-  background-image:url('./assets/img/wallpaper3.jpg');
-  background-position: center center;
+.footer {
+  padding: 50px 0;
+  background-image: url('./assets/img/beautiful-mountains-landscape.jpg');
+  background-position: center bottom; /* Align the bottom of the image with the bottom of the container */
   background-size: cover;
   background-repeat: no-repeat;
-
+  background-attachment: fixed; 
 }
 
 .footer img{
@@ -573,4 +573,3 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
-
