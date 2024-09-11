@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Website/static/css/main.a02d34b2.css",
-    "main.js": "/React-Website/static/js/main.034cb347.js",
-    "static/js/787.fb771931.chunk.js": "/React-Website/static/js/787.fb771931.chunk.js",
+    "main.js": "/React-Website/static/js/main.beb2ad0c.js",
+    "static/js/453.298f5782.chunk.js": "/React-Website/static/js/453.298f5782.chunk.js",
     "static/media/BorealisAI.gif": "/React-Website/static/media/BorealisAI.927eec53b2343b5f0760.gif",
     "static/media/franklinnew.jpg": "/React-Website/static/media/franklinnew.5fdade4eaedeedebca39.jpg",
     "static/media/beautiful-mountains-landscape.jpg": "/React-Website/static/media/beautiful-mountains-landscape.8e5269599681c559a157.jpg",
@@ -30,11 +30,11 @@
     "index.html": "/React-Website/index.html",
     "static/media/nav-icon1.svg": "/React-Website/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.a02d34b2.css.map": "/React-Website/static/css/main.a02d34b2.css.map",
-    "main.034cb347.js.map": "/React-Website/static/js/main.034cb347.js.map",
-    "787.fb771931.chunk.js.map": "/React-Website/static/js/787.fb771931.chunk.js.map"
+    "main.beb2ad0c.js.map": "/React-Website/static/js/main.beb2ad0c.js.map",
+    "453.298f5782.chunk.js.map": "/React-Website/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a02d34b2.css",
-    "static/js/main.034cb347.js"
+    "static/js/main.beb2ad0c.js"
   ]
 }
